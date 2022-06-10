@@ -1,0 +1,49 @@
+.layout-container{
+    background-color: #F0F2F5;
+    height: 100vh;
+}
+
+.layout-container-inner{
+    background-color: white;
+    height: 80%;
+    width: 60%;
+}
+
+.Navbar{
+    width: 30%;
+    height: 50px;
+}
+
+.link a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: orangered;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.tab-container{
+    height: 90%;
+    overflow-y: auto
+}
+
+.card-common{
+    border: 1px solid rgba(255, 68, 0, 0.435);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.selected a {
+    color: orangered;
+    font-size: 20px;
+}
+
+.selected a:hover {
+    color: orangered;
+    font-size: 20px;
+    transition: 0.2s;
+}
