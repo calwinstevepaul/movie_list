@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "44c3d6d2-abb6-4860-acca-cce3ead5f35a",
+		"name": "MovieList",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17885094"
+	},
+	"item": [
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\r\n    \"releaseDate\": \"14 February 2020\", \r\n    \"name\": \"Oh My Kadavule\",\r\n    \"directedBy\": \"Ashwath Marimuthu\",\r\n    \"writtenBy\": \"Ashwath Marimuthu\", \r\n    \"producedBy\": \"G. Dilli Babu\",\r\n    \"cinematography\": \"Vidhu Ayyanna\",\r\n    \"language\": \"Tamil\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/movie/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"movie",
+						"add"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\r\n    \"releaseDate\": \"14 February 2020\", \r\n    \"name\": \"Oh My Kadavule\",\r\n    \"directedBy\": \"Ashwath Marimuthu\",\r\n    \"writtenBy\": \"Ashwath Marimuthu\", \r\n    \"producedBy\": \"G. Dilli Babu\",\r\n    \"cinematography\": \"Vidhu Ayyanna\",\r\n    \"language\": \"Tamil\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/movie/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"movie",
+								"add"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "329"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"149-NwmazkCcqYwPsawTRQa9lGHJcfs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Jun 2022 07:17:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\n    \"releaseDate\": \"14 February 2020\",\n    \"name\": \"Oh My Kadavule\",\n    \"directedBy\": \"Ashwath Marimuthu\",\n    \"writtenBy\": \"Ashwath Marimuthu\",\n    \"producedBy\": \"G. Dilli Babu\",\n    \"cinematography\": \"Vidhu Ayyanna\",\n    \"language\": \"Tamil\",\n    \"_id\": \"62a2eff82f05d95cec267658\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\r\n    \"releaseDate\": \"14 February 2020\", \r\n    \"name\": \"Oh My Kadavule\",\r\n    \"directedBy\": \"Ashwath Marimuthu\",\r\n    \"writtenBy\": \"Ashwath Marimuthu\", \r\n    \"producedBy\": \"G. Dilli Babu\",\r\n    \"cinematography\": \"Vidhu Ayyanna\",\r\n    \"language\": \"Tamil\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/movie/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"movie",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\r\n    \"releaseDate\": \"14 February 2020\", \r\n    \"name\": \"Oh My Kadavule\",\r\n    \"directedBy\": \"Ashwath Marimuthu\",\r\n    \"writtenBy\": \"Ashwath Marimuthu\", \r\n    \"producedBy\": \"G. Dilli Babu\",\r\n    \"cinematography\": \"Vidhu Ayyanna\",\r\n    \"language\": \"Tamil\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/movie/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"movie",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "686"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2ae-bA3Gi/2roIo4dzQAQiRDAdHL7aw\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Jun 2022 07:27:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"62a2eff82f05d95cec267658\",\n        \"poster\": \"https://upload.wikimedia.org/wikipedia/en/d/d1/Oh_My_Kadavule_poster.jpg\",\n        \"releaseDate\": \"14 February 2020\",\n        \"name\": \"Oh My Kadavule\",\n        \"directedBy\": \"Ashwath Marimuthu\",\n        \"writtenBy\": \"Ashwath Marimuthu\",\n        \"producedBy\": \"G. Dilli Babu\",\n        \"cinematography\": \"Vidhu Ayyanna\",\n        \"language\": \"Tamil\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62a2f16b7308901b547b9c9c\",\n        \"poster\": \"https://upload.wikimedia.org/wikipedia/en/8/86/Kannum_Kannum_Kollaiyadithaal.jpg\",\n        \"releaseDate\": \"28 February 2020\",\n        \"name\": \"Kannum Kannum Kollaiyadithaal\",\n        \"directedBy\": \"Desingh Periyasamy\",\n        \"writtenBy\": \"Desingh Periyasamy\",\n        \"producedBy\": \"Anto Joseph\",\n        \"cinematography\": \"K. M. Bhaskaran\",\n        \"language\": \"Tamil\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		}
+	]
+}
